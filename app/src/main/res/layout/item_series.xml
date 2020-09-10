@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_titulo_series"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="titulo"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_genero_series"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="genero"/>
+    <TextView
+        android:id="@+id/tv_creador_series"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="creador"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/tv_temporadas_series"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temporadas"
+        android:textSize="14dp"/>
+
+
+</LinearLayout>
